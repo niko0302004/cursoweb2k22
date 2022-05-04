@@ -1,0 +1,47 @@
+.contenedor{
+    width: 1280px;
+    height: 800px;
+    background-color: peru;
+    margin: auto;
+}
+header{
+    width: 1280px;
+    height: 210px;
+    background-color: brown;
+}
+nav{
+    width: 250px;
+    height: 540px;
+    background-color: green;
+}
+main{
+    width: 750px;
+    height: 540px;
+    background-color: orangered;
+    margin-left: 250px;
+    margin-top: -540px;
+}
+.anuncio1{
+    width: 280px;
+    height: 180px;
+    background-color: purple;
+    margin-left: 1000px;
+    margin-top: -540px;
+}
+.anuncio2{
+    width: 280px;
+    height: 180px;
+    background-color: grey;
+    margin-left: 1000px;
+}
+.anuncio3{
+    width: 280px;
+    height: 180px;
+    background-color: blueviolet;
+    margin-left: 1000px;
+}
+footer{
+    width: 1280px;
+    height: 50px;
+    background-color: bisque;
+}
