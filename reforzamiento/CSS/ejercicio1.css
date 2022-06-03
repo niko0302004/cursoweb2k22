@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: aqua;
+}
+body{
+    width: 750px;
+	height: 750px;
+	background: red;
+	margin: auto;
+	margin-top: 10px;
+}
+header{
+    width: 750px;
+	height: 250px;
+	background: purple;
+}
+.banner{
+    width: 500px;
+	height: 250px;
+	background: #000;
+	float: right;
+}
+.logo{
+    height: 125px;
+	width: 250px;
+	background: red;
+	float: left;
+}
+.buscador{
+    height: 125px;
+	width: 250px;
+	background: rgb(178, 204, 30);
+	float: left;
+}
+nav ul li {
+    background-color:#1d58bd;
+}
+nav ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+nav ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+nav ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+nav ul li:hover {
+    background:#030303;
+}
+nav ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+nav ul ul li {
+    float:none;
+    width:150px
+}
+nav ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+nav ul li:hover > ul {
+    display:block;
+}
+main{
+	height: 400px;
+	background: pink;
+	clear: both;
+}
+.izquierda{
+    height: 400px;
+	width: 150px;
+	background: green;
+	float: left;
+}
+article{
+    width: 500px;
+	height: 400px;
+	background: yellow;
+	float: left;
+}
+.derecha{
+    height: 400px;
+	width: 100px;
+	background: green;
+	float: left;
+}
+footer{
+	background-color: black;
+	height: 50px;
+	clear: both;
+}

@@ -1,0 +1,133 @@
+body{
+    background-color: aqua;
+}
+.contenedor{
+    background-color: white;
+}
+li{
+    display: inline;
+}
+span{
+    display: block;
+}
+a{
+    display: block;
+}
+p span{
+    display: inline-block;
+    width: 25%;
+}
+.elementolista p{
+    display: list-item;
+    margin-left: 30px;
+}
+.tablacontenedor{
+    display: table;
+    border-spacing: 10px;
+}
+.contenido{
+    display: table-row;
+}
+.secundario, .principal, .lateral{
+    display: table-cell;
+}
+.flexible1{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+.flexible1 p{
+    width: 25%;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: blanchedalmond;
+}
+.flexible2 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible3{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+.flexible3 p{
+    width: 200px;
+    border: white 1px solid;
+    margin: 2px;
+}
+.flexible4{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: blanchedalmond;
+}
+.flexible4 p{
+    width: 200px;
+    border: white 1px solid;
+    margin: 2px;
+}
+.flexible5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(52, 160, 110);
+}
+.flexible5 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible6{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(90, 36, 92);
+}
+.flexible6 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible7{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(28, 13, 82);
+}
+.flexible7 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible8{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    background-color: rgb(121, 103, 76);
+}
+.flexible8 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2 px;
+}
+.flexible9{
+    display: flex;
+    flex-flow: wrap row-reverse;
+    background-color: blanchedalmond;
+}
+.flexible9 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}
+.flexible10{
+    display: flex;
+    flex-flow: wr;
+    background-color: blanchedalmond;
+}
+.flexible10 p{
+    width: 200px;
+    border: black 1px solid;
+    margin: 2px;
+}

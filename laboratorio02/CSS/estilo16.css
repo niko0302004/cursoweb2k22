@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+.fuente1{
+    font-family:'Koulen', cursive;;
+}
+.fuente2{
+    font-family: 'Roboto Mono', monospace;
+}
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-weight: bold;
+}
+.fuente7{
+    font-weight: bolder;
+}
+.fuente8{
+    font-style: small;
+}
+.fuente9{
+    font-variant: small-caps;
+}
+.fuente10{
+    font-size: 10px;
+}
+.fuente11{
+    font-variant: normal;
+}
+@font-face {
+    font-family: "Koulen";
+    src: url("/fonts/Koulen-Regular.ttf");
+}
+@font-face {
+    font-family: "Robotomono";
+    src: url("/fonts/RobotoMono-Light.ttf");
+}
+@font-face {
+    font-family: "pojerranger";
+    src: url("/fonts/Power\ Rangers.ttf");
+}
+@font-face {
+    font-family: "ninja";
+    src: url("/fonts/njnaruto.ttf");
+}
+@font-face {
+    font-family: "chino";
+    src: url("/fonts/NotoSansJP-Light.otf");
+}
+.fuente12{
+    font-family: "Koulen";
+}
+.fuente13{
+    font-family: "Robotomono";
+}
+.fuente14{
+    font-family: "pojerranger";
+}
+.fuente15{
+    font-family: "ninja";
+}
+.fuente16{
+    font-family: "chino";
+}
