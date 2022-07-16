@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 15</title>
+    <script src="js/biblioteca.js">
+
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="txtNh">NUMERO DE HORAS :</label>
+        <input type="text" name="txtNh" id="txtNh"><br>
+        <label for="">SELECCIONE UN AREA :</label>
+        <select name="cboArea" id="cboArea">
+            <option value="0">SELECCIONE UN AREA :</option>
+            <option value="15">ADMINISTRACION</option>
+            <option value="18">SISTEMA</option>
+            <option value="12">SOPORTE</option>
+            <option value="16">CONTABILIDAD</option>
+            <option value="10">VENTAS</option>
+            <option value="13">ALMACEN</option>
+        </select><br>
+        <label for="txtCh">COSTO POR HORA :</label>
+        <input type="text" name="txtCh" id="txtCh" readonly><br>
+        <label for="txtSb">SUELDO BASICO :</label>
+        <input type="text" name="txtSb" id="txtSb"><br>
+        <label for="">CATEGORIA</label>
+        <input type="radio" name="categoria" id="rbA">A
+        <input type="radio" name="categoria" id="rbB">B
+        <input type="radio" name="categoria" id="rbC">C
+        <input type="radio" name="categoria" id="rbD">D
+        <br>
+        <label for="txtBon">BONIFICACION</label>
+        <input type="text" name="txtBon" id="txtBon" readonly><br>
+        <label for="txtTar">TARDANZA</label>
+        <input type="checkbox" name="chkTar" id="chkTar">SI<br>
+        <label for="txtDes">DESCUENTO</label>
+        <input type="text" name="txtDes" id="txtDes" readonly><br>
+        <label for="txtSf">SUELDO FINAL</label>
+        <input type="text" name="txtSf" id="txtSf" readonly><br>
+        <button type="button" id="btnCalcular" name="btnCalcular" onclick="CalcularSueldoEmpleado()">CALCULAR</button>
+        <button type="button" id="btnLimpiar" name="btnLimpiar" onclick="Limpiar()">LIMPIAR</button>
+        
+    </form>
+    </form>
+</body>
+</html>
